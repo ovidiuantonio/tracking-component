@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+  </head>
+  <body>
+    <nav class="nav-mobile">
+      <ul class="nav__list-m">
+        <li class="nav__item-m">
+          <a href="#" class="nav__link-m">Product</a>
+        </li>
+        <li class="nav__item-m">
+          <a href="#" class="nav__link-m">Features</a>
+        </li>
+        <li class="nav__item-m">
+          <a href="#" class="nav__link-m">Pricing</a>
+        </li>
+        <li class="nav__item-m nav__item-m-last">
+          <a href="#" class="nav__link-m nav__link-m-last-m">Login</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="gray-rectangle"></div>
+
+    <nav class="nav">
+      <img src="images/logo.svg" alt="logo" class="nav__logo" />
+
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link">Product</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+        <li class="nav__item nav__item-last">
+          <a href="#" class="nav__link nav__link-last">Login</a>
+        </li>
+      </ul>
+
+      <img src="images/icon-hamburger.svg" alt="" class="nav__burger" />
+    </nav>
+
+    <main class="content">
+      <div class="content__left">
+        <div class="content__description">
+          <p class="new">New</p>
+          <p class="desc">Monograph Dashboard</p>
+        </div>
+
+        <h1 class="content__title">Powerful insights into your team</h1>
+
+        <p class="paragraph">
+          Project planning and time tracking for agile teams
+        </p>
+
+        <div class="request">
+          <button class="request__button">Schedule a demo</button>
+          <p class="request__text">to see a live preview</p>
+        </div>
+      </div>
+
+      <div class="content__right">
+        <img src="images/illustration-devices.svg" alt="" class="devices" />
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
